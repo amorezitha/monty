@@ -1,23 +1,29 @@
 #include "monty.h"
+
 /**
- * f_queue - prints the top
- * @head: stack head
- * @counter: line_number
+ * f_queue - prints first node of queue
+ * @head: first node of queue (unused)
+ * @counter: line_number (unused)
+ *
  * Return: no return
  */
+
 void f_queue(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
+
 	bus.lifi = 1;
 }
 
 /**
- * addqueue - add node to the tail stack
+ * addqueue - add node to the tail queue
  * @n: new_value
- * @head: head of the stack
+ * @head: head of the queue
+ *
  * Return: no return
  */
+
 void addqueue(stack_t **head, int n)
 {
 	stack_t *new_node, *aux;
